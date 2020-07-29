@@ -14,9 +14,10 @@ body {
 }
 .christmas-message {
     color: white;
-    font-size: 2vmax;
+    font-size: 3vmax;
 }
 .days-left {
+    text-align: center;
     color: #e15966;
     font-size: 15vmax;
     font-weight: 900;
