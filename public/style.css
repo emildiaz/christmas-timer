@@ -9,18 +9,16 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .christmas-message, .days-left, .progress{
     font-family: 'Amatic SC', cursive;
-    color: rgb(96,136,73);
 }
 .christmas-message {
     color: white;
-    font-size: 2vw;
+    font-size: 2vmax;
 }
 .days-left {
     color: #e15966;
-    font-size: 15vw;
+    font-size: 15vmax;
     font-weight: 900;
     padding-bottom: 150px;
 }
