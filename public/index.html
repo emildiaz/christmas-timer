@@ -17,13 +17,12 @@
     <div class="progress-bar">
         <span class="progress">Loading...</span>
     </div>
-    <audio autoplay src="christmasmusic.mp3">
+    <audio class="audioPlayer" preload="auto" controls loop>
+        <source src="./sound/christmasmusic.mp3" type="audio/mp3">
     </audio>
-    </figure>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
     <script src="snowflake.js"></script>
     <script src="christmas.js"></script>
-    <script src="server.js"></script>
     <script src="sketch.js"></script>
 </body>
 </html>
