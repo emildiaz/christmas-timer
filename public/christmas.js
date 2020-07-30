@@ -17,7 +17,6 @@ let percent;
 let w_message = document.querySelector('.christmas-message');
 let w_days = document.querySelector('.days-left');
 let w_percent = document.querySelector('.progress')
-const audio = new Audio('christmasmusic.mp3');
 
 function daysUntil() {
     currentDate = new Date();
@@ -45,7 +44,6 @@ function main() {
     daysUntil();
     progressBar(until);
     getMessage(until);
-    audio.play();
     return;
 }
 main();
