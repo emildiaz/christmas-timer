@@ -49,10 +49,10 @@ body {
 }
 .audioPlayer{
     height: 3vh;
-    width: 15rem;
+    width: 30vmin;
     position: absolute;
     top: 3vh;
-    left: 2rem;
+    left: 30px;
     display: block;
     margin: 0;
   }
