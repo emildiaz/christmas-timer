@@ -61,6 +61,6 @@ body {
     display: inline-flex;
     color: grey;
     position: absolute;
-    bottom: 40px;
+    bottom: 3vh;
     font-size: 2vh;
 }
