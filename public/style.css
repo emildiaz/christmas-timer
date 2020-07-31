@@ -22,8 +22,9 @@ body {
     text-align: center;
     color: #e15966;
     font-size: 15vmax;
-    font-weight: 900;
-    padding-bottom: 150px;
+    /* font-weight: 900; */
+    /* padding-bottom: 150px; */
+    padding-bottom: 15vh;
 }
 .progress-bar{
     background-color: gray;
