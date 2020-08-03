@@ -20,7 +20,7 @@ let w_percent = document.querySelector('.progress')
 
 function daysUntil() {
     currentDate = new Date();
-    until = Math.ceil((CHRISTMAS - currentDate) / oneDay);
+    until = Math.ceil(((CHRISTMAS - currentDate) / oneDay).toFixed(1));
     return;
 }
 
