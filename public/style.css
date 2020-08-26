@@ -19,6 +19,8 @@ body {
     font-size: 3vmax;
 }
 .days-left {
+    background: none;
+    border: none;
     text-align: center;
     color: #e15966;
     font-size: 15vmax;
